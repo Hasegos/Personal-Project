@@ -8,22 +8,29 @@
 			  3.할 일 완료시 목록 클릭하면 줄 긋기
 			  4.모두 삭제 버튼 클릭하면 전체 목록 삭제
 			  5.빈입력창 추가 alert 메세지, 출력 빈목록 모두 삭제시 confirm 창 뜨기---->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 		<meta charset="UTF-8"/>
-		<title>To Do List My Project</title>		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do List My Project</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header>TodoList</header>
 			<div class="inputField">
 				<input type="text" id="addValue" placeholder="할 일 추가하기" autofocus/><!--자동 포커스-->
-				<!--1.oncick 특성이랑 기능 알기
-				    2. i 기능과 class 기능 <-- 알고 있기로는 객체 느낌
-					3. 추가로 class랑 id 차이--->
+				<!--1.oncick 특성이랑 기능 알기 -> onclick 이벤트 핸들러 사용해서 javascript 함수 호출 하는데 사용
+				                                또한 여러개 적용 x 하나를 사용하면 그걸로 끝
+				    2. i 기능과 class 기능  class는 스타일 시트를 적용시키기위한 구분자
+			                              i  태그는 글자를 기울여서 표시하는 태그
+			        3. 추가로 class랑 id 차이   id 는 딱 그 태그만 표현 하고싶을 때 
+			                                  class 는 그룹화 시켜서 전체를 바꾸고 싶을 때--->
 				<button type="button" id="btn" onclick="addTodo()"><i class="xi-plus xi-2x"></i></button> 				
 			</div>
 			<div>
-				<!--1. ul 기능과 li 기능 알아오기--->
+				<!--1. ul 기능과 li 기능 알아오기 -> 순서가 없는 리스트를 정의 할 때 사용 
+			                                      그래서 각 아이템 요소로 li 사용 --->
 				<ul id="addTodo" class="TodoList">
 					<li><div id='result'></div></li>
 				</ul>
