@@ -1,1 +1,37 @@
-adsdas
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- ToDoList 주소 : https://velog.io/@yujinaa/JavaScript%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-TodoList%EB%A7%8C%EB%93%A4%EA%B8%B0 -->
+		<!--- 우리가 하기전에 구현 해야 할 과제--->
+		<!--- 1.입력할 바 구현,바에 + 기능 넣기
+			  2.x 버튼 클릭시 그것만 사라지게하기
+			  3.할 일 완료시 목록 클릭하면 줄 긋기
+			  4.모두 삭제 버튼 클릭하면 전체 목록 삭제
+			  5.빈입력창 추가 alert 메세지, 출력 빈목록 모두 삭제시 confirm 창 뜨기---->
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8"/>
+		<title>To Do List My Project</title>		
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>TodoList</header>
+			<div class="inputField">
+				<input type="text" id="addValue" placeholder="할 일 추가하기" autofocus/><!--자동 포커스-->
+				<!--1.oncick 특성이랑 기능 알기
+				    2. i 기능과 class 기능 <-- 알고 있기로는 객체 느낌
+					3. 추가로 class랑 id 차이--->
+				<button type="button" id="btn" onclick="addTodo()"><i class="xi-plus xi-2x"></i></button> 				
+			</div>
+			<div>
+				<!--1. ul 기능과 li 기능 알아오기--->
+				<ul id="addTodo" class="TodoList">
+					<li><div id='result'></div></li>
+				</ul>
+			</div>
+			<div class="footer">
+				<button type="button" id="allClear"  onclick="allClearList()">모두 삭제</button>
+			</div>
+		</div>
+		<script src="javascript.js"></script>
+	</body>
+</html>
