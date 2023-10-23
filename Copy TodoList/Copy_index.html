@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 목표 : 최대한 안보고 만들기
+                   재 복습하고 내것으로 만든다. -->
+		
+		
+		<!-- 몰랐던 부분들 : placeholder -> 
+                          autofocus ->   -->
+		<!-- 주목해서 봐야할 부분 : onclick , type 지정 class vs id 차이 --->
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Copy TodoList</title>
+		<link rel="stylesheet" href="Copy_style.css">
+	</head>
+	<body>
+		<div class="frame">
+			<header>Copy TodoList</header>
+			<!--입력 부분--->
+			<div class="button">
+				<input type="text" id="addValue" placeholder="내용을 입력해주세요" autofocus />
+				<!--여기서 class 한 이유는 button 까지 한번에 바꾸기위해서 사용--->
+				<button type="button" id="btn" onclick="addTodo()"><i class="xi-plus xi-2x"></i></button>
+			</div>
+			<div>
+				<ul id ="addTodo" class ="TodoList">
+					<li><div id="result"></div></li>
+				</ul>	
+			</div>
+			<div class="footer">
+				<button type="button"id="clearAll" onclick="clearAll()">모두 삭제</button>	
+			</div>			
+		</div>
+		<script src="Copy_javascript.js"></script>
+	</body>
+</html>

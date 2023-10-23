@@ -24,4 +24,7 @@
 - 모튤 사용 X
 
 
-## 주요기능
+## <img src="https://github.com/Hasegos/Personal-Project/assets/93961708/e5eb4fbf-7fe0-4c26-80eb-d375458af0ab" width = "30"> 주요기능
+- JS로 버튼을 조작해서 추가 / 삭제 기능 구성
+- HTML로 전체적인 틀 구성
+- CSS 기능으로 HTML에 레이아웃과 디자인요소 구성
