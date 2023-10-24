@@ -2,7 +2,10 @@
 포트폴리오를 위한 개인프로젝트
 
 ## <img src="https://github.com/Hasegos/Personal-Project/assets/93961708/66edfc23-8bb0-4954-afc7-898f2ae75106" width ="40" height = "40"> 프로젝트 소개
-첫번째 프로젝트인 To Do List 입니다.
+첫번째 프로젝트인 To Do List 입니다. 
+
+- TodoList 내용을 찾아보며 작성 
+- Copy TodoList 재복습과정에서 겪었던 실수들, 기억해야할 내용들 작성
 
 ### <img src="https://github.com/Hasegos/Personal-Project/assets/93961708/9a43d109-8778-4797-9ef6-fbfa746a83a7" width = "30" height = "30"> 개발 시간
 

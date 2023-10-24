@@ -78,9 +78,10 @@ body {
 .TodoList li {
 	width: 650px;
 	list-style:none;
-	line-height : 15px;
+	line-height : 40px;
 	position: relative;
 	margin-bottom: 5px;
+	background: rgb(241,242,241);
 	text-indent: 15px;
 	border-radius: 4px;
 	font-weight: 400;
