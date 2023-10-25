@@ -42,14 +42,12 @@ function Frame() {
 		requestAnimationFrame(Frame);
 		timer ++;
 		ctx.clearRect(0,0,canvas.width,canvas.height);
-		if(timer % 144 === 0){
+		if(timer % 60 === 0){
 			var cactus = new Cactus();
 			cactus.draw();
-		}
-		// 기능 알아오기
+		}		// 기능 알아오기
 		
-		dino.draw();
-	    
+		dino.draw();	    
 }
 
 
