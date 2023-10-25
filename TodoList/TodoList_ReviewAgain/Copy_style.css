@@ -1,7 +1,7 @@
 /* 재복습하면서 알아야 할 내용 
   linear-gradient(방향or 각도, 색상그리고 정지점1, 색상 그리고 정지점2,.. //n)함수
   특성 : 두개이상의 색이 직선에따라 점진적으로 변화 
-  justify=content : 가로축 - 중심축 (아이템을 기준으로)
+  justify-content : 가로축 - 중심축 (아이템을 기준으로)
   align-items : 세로축 - 교차축
   text-align : 텍스트 정렬방향 지정
   letter-spacing: 글자간의 간격 정하기
